@@ -34,5 +34,5 @@ Deberá poder usarse como PWA y como Web App tanto en mobile, tablets y desktop.
 
 
 ## Documentacion
-- ### <a href="https://github.com/JuanAgusAlej/prode" target="_blank">Front</a>
-- ### <a href="https://github.com/JuanAgusAlej/prode-api" target="_blank">Back</a>
+- ### <a href="https://github.com/ElianRivoira/PRODE-Tonic3/tree/master/front" target="_blank">Front</a>
+- ### <a href="https://github.com/ElianRivoira/PRODE-Tonic3/tree/master/back" target="_blank">Back</a>
