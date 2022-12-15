@@ -1,0 +1,13 @@
+.lose {
+    filter: grayscale(100%);
+}
+.teamName {
+    font-weight: bold;
+}
+.visitor {
+    justify-content: space-between;
+    padding: 0;
+}
+.gol {
+    font-weight: bolder;
+}
