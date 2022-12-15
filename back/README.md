@@ -18,58 +18,26 @@ La PWA deberá ser adaptable y autoadministrable, se deberá poder acceder desde
 Deberá poder usarse como PWA y como Web App tanto en mobile, tablets y desktop. Redirigir países de habla hispana a Argentina, Brasil a la versión en portugués, y USA versión inglés. 
 
 ------------
-# Instalacion
-
-## <a href="https://github.com/JuanAgusAlej/prode" target="_blank"> Instalacion Front </a>
+# Instalacion Back
 
 - Realizar un git clone:
-	1. HTTPS: `git clone https://github.com/JuanAgusAlej/prode.git`
+	1. HTTPS: `git clone https://github.com/ElianRivoira/PRODE-Tonic3.git`
 
-	2. SSH: `git clone git@github.com:JuanAgusAlej/prode.git`
+	2. SSH: `git clone git@github.com:ElianRivoira/PRODE-Tonic3.git`
 
-- En la carpeta prode realizar un `npm i`
-- Generar un archivo .env.local con los datos del .temple.env.local en los mismos rellenar los campos de las variables de entorno
-		
-        REACT_APP_URL = url de la peticion al back ej. http://localhost:8080/api
-
-- Una vez configurado ejecutar el proyecto con `npm start`
-
-## <a href="https://github.com/JuanAgusAlej/prode-api" target="_blank">Instalacion Back</a>
-- Realizar un git clone:
-	1. HTTPS: `git clone https://github.com/JuanAgusAlej/prode-api.git`
-
-	2. SSH: `git clone git@github.com:JuanAgusAlej/prode-api.git`
-
-- En la carpeta prode-api realizar un `npm i`
+- En la carpeta "back" realizar un `npm i`
 - Generar un archivo .env con los datos del .temple.env en los mismos rellenar los campos de las variables de entorno
 		
-		PORT = (ingresar el puerto en el que se ejecutaría)
+		PORT = (ingresar el puerto en el que se ejecutará)
 		MONGODB_CNN = (ingresar ruta de Mongo)
-		TOKEN_PASSPHRASE = (ingresar un token para cifrado de token)
+		TOKEN_PASSPHRASE = (ingresar un string para cifrado de token)
 		
 - Una vez configurado ejecutar el proyecto con `npm start`
 
 ## Diagrama DB
 - ### <a href="https://dbdiagram.io/d/6328db260911f91ba5e92378" target="_blank">dbDiagram<a/>
+
+
 ## Documentacion
-- ### <a href="https://github.com/JuanAgusAlej/prode" target="_blank">Front</a>
-- ###  <a href="https://github.com/JuanAgusAlej/prode-api" target="_blank">Back</a>
-
-
-# Integrantes
-
-## Clientes
-- Evelin Giselle Kichilewicz
-- Sergio Gaffoglio
-- Dario Esposito
-
-## Scrum Master
-- Marisol Yelamo
-
-## Desarrolladores
-- Luciano Casini
-- Elian Rivoira
-- Rober Fonseca
-- Agustin Sa
-- Juan Agustin Alejandro
-
+- ### <a href="https://github.com/ElianRivoira/PRODE-Tonic3/tree/master/front" target="_blank">Front</a>
+- ###  <a href="https://github.com/ElianRivoira/PRODE-Tonic3/tree/master/back" target="_blank">Back</a>

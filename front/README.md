@@ -18,56 +18,21 @@ La PWA deberá ser adaptable y autoadministrable, se deberá poder acceder desde
 Deberá poder usarse como PWA y como Web App tanto en mobile, tablets y desktop. Redirigir países de habla hispana a Argentina, Brasil a la versión en portugués, y USA versión inglés. 
 
 ------------
-# Instalacion
+# Instalacion Front
 
-## <a href="https://github.com/JuanAgusAlej/prode" target="_blank"> Instalacion Front </a>
+- Realizar un git clone del repositorio:
+	1. HTTPS: `git clone https://github.com/ElianRivoira/PRODE-Tonic3.git`
 
-- Realizar un git clone:
-	1. HTTPS: `git clone https://github.com/JuanAgusAlej/prode.git`
+	2. SSH: `git clone git@github.com:ElianRivoira/PRODE-Tonic3.git`
 
-	2. SSH: `git clone git@github.com:JuanAgusAlej/prode.git`
-
-- En la carpeta prode realizar un `npm i`
-- Generar un archivo .env.local con los datos del .temple.env.local en los mismos rellenar los campos de las variables de entorno
+- Para instalar el front debe situarse en la carpeta "front" y realizar un `npm i`
+- Generar un archivo .env.local con las variables de entorno del .temple.env.local y completar sus valores
 		
         REACT_APP_URL = url de la peticion al back ej. http://localhost:8080/api
 
 - Una vez configurado ejecutar el proyecto con `npm start`
 
-## <a href="https://github.com/JuanAgusAlej/prode-api" target="_blank">Instalacion Back</a>
-- Realizar un git clone:
-	1. HTTPS: `git clone https://github.com/JuanAgusAlej/prode-api.git`
-
-	2. SSH: `git clone git@github.com:JuanAgusAlej/prode-api.git`
-
-- En la carpeta prode-api realizar un `npm i`
-- Generar un archivo .env con los datos del .temple.env en los mismos rellenar los campos de las variables de entorno
-		
-		PORT = (ingresar el puerto en el que se ejecutaría)
-		MONGODB_CNN = (ingresar ruta de Mongo)
-		TOKEN_PASSPHRASE = (ingresar un token para cifrado de token)
-		
-- Una vez configurado ejecutar el proyecto con `npm start`
 
 ## Documentacion
 - ### <a href="https://github.com/JuanAgusAlej/prode" target="_blank">Front</a>
-- ###  <a href="https://github.com/JuanAgusAlej/prode-api" target="_blank">Back</a>
-
-
-# Integrantes
-
-## Clientes
-- Evelin Giselle Kichilewicz
-- Sergio Gaffoglio
-- Dario Esposito
-
-## Scrum Master
-- Marisol Yelamo
-
-## Desarrolladores
-- Luciano Casini
-- Elian Rivoira
-- Rober Fonseca
-- Agustin Sa 
-- Juan Agustin Alejandro
-
+- ### <a href="https://github.com/JuanAgusAlej/prode-api" target="_blank">Back</a>
